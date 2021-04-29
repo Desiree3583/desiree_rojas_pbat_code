@@ -6,8 +6,6 @@ while True:
         pause(1000)
         print("Go back up")
         music.ba_ding.play_until_done()
-        light.set_all(light.rgb(255, 0, 0))
-        pause(1000)
-    else:
-        light.set_all(light.rgb(0, 255, 0))
+        light.set_pixel_color(0, light.rgb(255, 0, 0)
+    
 
